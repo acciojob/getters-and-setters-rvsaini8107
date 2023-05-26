@@ -31,7 +31,7 @@ ram.study();
 
 let ShriGanesh = new Teacher("ShriGanesh",25);
 ShriGanesh.teach();
-
+const person = new Person("John", 30);
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
