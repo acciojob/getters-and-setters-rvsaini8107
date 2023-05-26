@@ -31,8 +31,10 @@ ram.study();
 
 let ShriGanesh = new Teacher("ShriGanesh",25);
 ShriGanesh.teach();
-const person = new Person("RajRam", 30);
-person.getName();
+
+const person = new Person("RajaRam",121)
+console.log(person.name)
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
